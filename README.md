@@ -36,65 +36,25 @@ This project implements **Parking Slot System** in **Java** with an interactive 
 ## 📁 Structure Project
 
 ```text
-Eigenface/
-├── requirements.txt
+PBOProject/
+├── pom.xml
 ├── src/
-│   ├── main.py
-│   ├── preprocessing.py
-│   ├── distance.py
-│   ├── __init__.py
-│   ├── eigenface.py
-│   ├── utils.py
-│   └── __pycache__/
-│       ├── preprocessing.cpython-312.pyc
-│       ├── distance.cpython-312.pyc
-│       ├── eigenface.cpython-312.pyc
-│       └── utils.cpython-312.pyc
-├── ss/
-│   ├── main.png
-│   ├── result.png
-│   ├── Eigenface.png
-│   ├── Variance.png
-│   └── Vektor.png
-├── test/
-│   ├── images1 /
-│   │   ├── img1.1 
-│   │   ├── img1.2
-│   │   ├── img1.3
-│   │   ├── img1.4
-│   │   └── img1....
-│   ├── images2 /
-│   │   ├── img2.1 
-│   │   ├── img2.2
-│   │   ├── img2.3
-│   │   ├── img2.4
-│   │   └── img2....
-│   ├── images3 /
-│   │   ├── img3.1 
-│   │   ├── img3.2
-│   │   ├── img3.3
-│   │   ├── img3.4
-│   │   └── img3....
-│   ├── images4 /
-│   │   ├── img4.1 
-│   │   ├── img4.2
-│   │   ├── img4.3
-│   │   ├── img4.4
-│   │   └── img4....
-│   ├── images5 /
-│   │   ├── img5.1 
-│   │   ├── img5.2
-│   │   ├── img5.3
-│   │   ├── img5.4
-│   │   └── img5....
-│   └── images../
-│       ├── img...1 
-│       ├── img...2
-│       ├── img...3
-│       ├── img...4
-│       └── img......
-└── docs/
-    └── README.md 
+│   └── main/
+│       ├── java/
+│       │   └── org/
+│       │       └── example/
+│       │           ├── controller/
+│       │           ├── model/
+│       │           ├── service/
+│       │           └── main/
+│       └── resources/  
+│           ├── fxml/
+│           │   ├── login.fxml
+│           │   ├── admin.fxml  
+│           │   └── display.fxml
+│           └── css/
+│               └── style.css
+└── README.md
 ```
 
 ---
